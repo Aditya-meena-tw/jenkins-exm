@@ -7,11 +7,11 @@ agent any
     }}
       stage("test"){
     steps {
-    echo "Bulding...."
+    echo "testing...."
     }}
      stage("deploy"){
     steps {
-    echo "Bulding...."
+    echo "deploying...."
     }}
   }
 }
